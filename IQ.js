@@ -1,43 +1,43 @@
 var questions = [{
-    question: "1. How do you write 'Hello World' in an alert box?",
-    choices: ["msg('Hello World')", "msgBox('Hello World');", "alertBox('Hello World');", "alert('Hello World');"],
+    question: "1. Given functions f(x) = x2−4x−2 and g(x) = x + 2, x <= R. Then which of the following is correct?",
+    choices: ["msg('f is continuous at x = 2,g is continuous at x = 2')", "msgBox(' f is continuous at x = 2,g is not continuous at x = 2');", "alertBox('f is not continuous at x = 2,g is continuous at x = 2');", "alert('f is not continuous at x = 2,g is not continuous at x = 2');"],
     correctAnswer: 3
 }, {
-    question: "2. How to empty an array in JavaScript?",
-    choices: ["arrayList[]", "arrayList(0)", "arrayList.length=0", "arrayList.len(0)"],
+    question: "2. Total number of possible matrices of order 2 × 3 with each entry 1 or 0 is",
+    choices: ["6", "36", "32", "64"],
+    correctAnswer: 4
+}, {
+    question: "3. The refractive index of glass is 1.5 for light waves of X = 6000 A in vacuum. Its wavelength in glass is",
+    choices: ["2000 Å", "4000 Å", "1000 Å", "3000 Å"],
     correctAnswer: 2
 }, {
-    question: "3. What function to add an element at the begining of an array and one at the end?",
-    choices: ["push,unshift", "unshift,push", "first,push", "unshift,last"],
-    correctAnswer: 1
+    question: "4. A coil having 500 sq. loops of side 10 cm is placed normal to magnetic flux which increases at a rate of 1 T/s. The induced emf is",
+    choices: ["0.1 V", "0.5 V", "1 V", "5 V"],
+    correctAnswer: 4
 }, {
-    question: "4. What will this output? var a = [1, 2, 3]; console.log(a[6]);",
-    choices: ["undefined", "0", "prints nothing", "Syntax error"],
-    correctAnswer: 0
-}, {
-    question: "5. What would following code return? console.log(typeof typeof 1);",
-    choices: ["string", "number", "Syntax error", "undefined"],
-    correctAnswer: 0
-},{
-	question: "6. Which software company developed JavaScript?",
-    choices: ["Mozilla", "Netscape", "Sun Microsystems", "Oracle"],
-    correctAnswer: 1
-},{
-	question: "7. What would be the result of 3+2+'7'?",
-    choices: ["327", "12", "14", "57"],
+    question: "5.  Which of the following statement is correct?",
+    choices: ["ECell and ∆rG of cell reaction both are extensive properties.", "ECell and ∆rG of cell reaction both are . intensive properties.", " ECell is an intensive property while ∆rG of cell reaction is an extensive property.", "ECell is an extensive property while ∆rG of cell reaction is an intensive property."],
     correctAnswer: 3
 },{
-	question: "8. Look at the following selector: $('div'). What does it select?",
-    choices: ["The first div element", "The last div element", "All div elements", "Current div element"],
+    question: "6. Colloidion is 4% solution of which one of the following in alcohol-ether mixture.",
+    choices: ["Nitroglycerin", "Cellulose acetate", "Glycol dinitrate", "Nitrocellulose"],
+    correctAnswer: 4
+},{
+    question: "7. What is ‘sprout a shady boon for sheep’?",
+    choices: ["human beings", "creepers", "trees new and young", "trees old and young"],
+    correctAnswer: 4
+},{
+    question: "8. Jack narrates the story in the evenings and for ___ naps.",
+    choices: ["Monday", "Saturday", " Sunday", "Tuesday"],
     correctAnswer: 2
 },{
-	question: "9. How can a value be appended to an array?",
-    choices: ["arr(length).value;", "arr[arr.length]=value;", "arr[]=add(value);", "None of these"],
-    correctAnswer: 1
+    question: "9.  The ternary operator operates on how many commands?",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
 },{
-	question: "10. What will the code below output to the console? console.log(1 +  +'2' + '2');",
-    choices: ["'32'", "'122'", "'13'", "'14'"],
-    correctAnswer: 0
+    question: "10. Which button is used to send the values of data entered in the form?;",
+    choices: ["Send button", "Reset button", " Submit button", " Enter button"],
+    correctAnswer: 3
 }];
 
 
