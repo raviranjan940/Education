@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 17px;
+    background:linear-gradient(145deg,  #5bf700, #00f8c2);
+
+  }
+  .navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(45deg,  #f70000, #f89200);
+    color: #ffffff;
+  }
+  
+  .logo {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .logo a {
+  
+    text-decoration: none;
+    color: transparent;
+    margin-left: 20px;
+  }
+  .navbar-links ul {
+    margin: 0px 10px;
+    padding: 0px;
+    display: flex;
+  }
+  .navbar-links ul li {
+    list-style: none;
+  }
+  .navbar-links ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    display: block;
+  }
+  .navbar-links ul li a:hover {
+    background: #ffffff;
+    color: #000;
+  }
+  .togglebtn {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
+  .line {
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .togglebtn {
+      display: flex;
+    }
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+    }
+    .navbar-links ul li {
+      text-align: center;
+    }
+    .navbar-links ul li a {
+      padding: 16px;
+    }
+    .navbar-links.active {
+      display: flex;
+    }
+  }
+
+  h4{
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 0;
+    min-height: calc(8vh - 16px);
+    background: linear-gradient(45deg,  #f70000, #f89200);;
+    position: relative;
+    background:    #f70000;
+    color: rgb(237, 241, 237);
+  }
+  
+  h4:before{
+    content: attr(data-text);
+    position: absolute;
+    background: linear-gradient(#f70000, #f89200, #f8f501, #038f00,#0168f8, #a200f7);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100% 90%;
+    line-height: 0.9;
+    clip-path: ellipse(120px 120px at -2.54% -9.25%);
+    animation: swing 2s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes swing{
+    0%{
+      clip-path: ellipse(120px 120px at -2.54% -9.25%)
+    }
+    50%{
+      clip-path: ellipse(120px 120px at 49.66% 64.36%);
+  
+    }
+    100%{
+      clip-path: ellipse(120px 120px at 102.62% -1.61%)
+    }
+  }
